@@ -14,11 +14,15 @@ L'analyse a été réalisée avec **Databricks** et **PySpark** sur un dataset d
 ## 📁 Structure du projet
 
 ```
-projet-steam/
-├── 01_loading_cleaning.ipynb       # Notebook 01 : Chargement & Nettoyage
-├── 02_eda_analysis.ipynb           # Notebook 02 : EDA & Analyses
+projet-steam-bloc2/
+├── notebooks/
+│   ├── 01_loading_cleaning.ipynb        # Notebook 01 : Chargement & Nettoyage
+│   └── 02_eda_visualization.ipynb       # Notebook 02 : EDA & Visualisations
+├── data/                                # Emplacement pour données locales éventuelles
+├── images/
+│   └── databricks-notebooks.png         # Capture du workspace Databricks (README)
 ├── outputs/
-│   └── images/                     # Visualisations exportées depuis Databricks
+│   └── images/                          # Visualisations exportées depuis Databricks
 │       ├── 1_1_top_publishers.png
 │       ├── 1_2_best_rated_games.png
 │       ├── 1_3_releases_by_year.png
@@ -37,6 +41,8 @@ projet-steam/
 │       ├── 4_2_price_vs_reviews.png
 │       ├── 4_3_top_games_owners.png
 │       └── 4_4_multiplatform.png
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
