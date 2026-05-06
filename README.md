@@ -1,6 +1,6 @@
-# 🎮 Projet Steam — Analyse du marché des jeux vidéo
+# Projet Steam — Analyse du marché des jeux vidéo
 
-## 📇 Contexte
+## Contexte
 
 Ce projet a été réalisé pour **Ubisoft**, un éditeur français de jeux vidéo souhaitant lancer un nouveau jeu sur Steam. L'objectif est de conduire une analyse globale du marché des jeux vidéo disponibles sur Steam afin de mieux comprendre l'écosystème et les tendances actuelles.
 
@@ -11,7 +11,7 @@ L'analyse a été réalisée avec **Databricks** et **PySpark** sur un dataset d
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 projet-steam-bloc2/
@@ -48,7 +48,7 @@ projet-steam-bloc2/
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 - **Source** : `s3://full-stack-bigdata-datasets/Big_Data/Project_Steam/steam_game_output.json`
 - **Format** : JSON semi-structuré (imbriqué)
@@ -57,7 +57,7 @@ projet-steam-bloc2/
 
 ---
 
-## 🔧 Notebook 01 — Data Exploration & Cleaning
+## Notebook 01 — Data Exploration & Cleaning
 
 ### Transformations appliquées
 
@@ -87,7 +87,7 @@ projet-steam-bloc2/
 
 ---
 
-## 📊 Notebook 02 — EDA & Analyses
+## Notebook 02 — EDA & Analyses
 
 ### Partie 1 — Analyse Macro
 
@@ -192,14 +192,14 @@ Ce visuel compare la popularité des jeux selon leur couverture multi-plateforme
 **Interprétation :** les jeux multi-plateformes tendent à toucher une audience plus large. Elargir la compatibilité peut renforcer la performance commerciale globale. Le coût de portage doit cependant rester aligné avec le potentiel de ventes.
 
 ---
-🖥️ Aperçu des notebooks sur Databricks
+Aperçu des notebooks sur Databricks
 > Les notebooks ont été développés et exécutés sur Databricks Free Edition. Voici un aperçu de l'environnement de travail :
 ![Aperçu des notebooks](images/databricks-notebooks.png)
 
 > Vue du Workspace Databricks avec les deux notebooks 01_loading_cleaning et 02_eda_visualization dans le dossier projet-steam.
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 - **Databricks** (Free Edition)
 - **Apache Spark / PySpark**
@@ -208,7 +208,7 @@ Ce visuel compare la popularité des jeux selon leur couverture multi-plateforme
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 Projet réalisé dans le cadre du **Bloc 2 — Big Data** à Jedha Bootcamp.
 
