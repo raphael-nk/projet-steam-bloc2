@@ -6,6 +6,9 @@ Ce projet a été réalisé pour **Ubisoft**, un éditeur français de jeux vid�
 
 L'analyse a été réalisée avec **Databricks** et **PySpark** sur un dataset de ~55 000 jeux Steam.
 
+> Les notebooks sont accessibles directement sur Databricks via ce lien :
+[Accéder au Workspace Databricks](https://dbc-ab2288c0-e937.cloud.databricks.com/browse/folders/1120015630262297?o=7474645418564237)
+
 ---
 
 ## 📁 Structure du projet
